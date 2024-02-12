@@ -28,7 +28,8 @@ const PeopleTable = () => {
   };
 
   return (
-    <Paper>
+    // <Paper>
+    <Paper sx={{ padding: '20px', margin: '20px auto', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', backgroundColor: 'grey', borderRadius: '8px' }}>
       <TextField
         label="Search"
         fullWidth
